@@ -1,0 +1,29 @@
+{
+  "patient_id": "1920",
+  "hour": 59,
+  "risk_score": 0.9999724626541138,
+  "alert_message": "Elevated lactate + Elevated temperature + Elevated shock index",
+  "top_drivers": [
+    {
+      "variable": "lactate",
+      "feature": "Lactate",
+      "value": 3.579753188930133,
+      "shap": 3.8302,
+      "description": "Elevated lactate (3.58)"
+    },
+    {
+      "variable": "temperature",
+      "feature": "Temp",
+      "value": 38.30581360580676,
+      "shap": 1.9039,
+      "description": "Elevated temperature (38.31)"
+    },
+    {
+      "variable": "shock index (HR/SBP)",
+      "feature": "shock_index",
+      "value": 1.448300936297765,
+      "shap": 1.3177,
+      "description": "Elevated shock index (HR/SBP) (1.45)"
+    }
+  ]
+}

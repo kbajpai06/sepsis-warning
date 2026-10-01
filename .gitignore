@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+# NEVER commit MIMIC / PhysioNet data (credentialed, DUA forbids redistribution)
+data/
+*.psv
+*.csv.gz
+# experiment tracking + trained models are build outputs
+mlruns/
+mlflow.db
+artifacts/*
+!artifacts/.gitkeep
+reports/*
+!reports/.gitkeep

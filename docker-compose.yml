@@ -1,0 +1,9 @@
+services:
+  sepsis-api:
+    build: .
+    ports: ["8000:8000"]
+    volumes:
+      - ./artifacts:/app/artifacts:ro
+    environment:
+      MODEL_DIR: /app/artifacts
+    restart: unless-stopped

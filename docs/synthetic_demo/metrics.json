@@ -1,0 +1,53 @@
+{
+  "xgboost": {
+    "row": {
+      "auroc": 0.9984141444466129,
+      "auprc": 0.9893190628680271,
+      "threshold": 0.17310234904289246,
+      "sensitivity": 0.9602142310635042,
+      "specificity": 0.9937471797846967,
+      "precision": 0.9282544378698225
+    },
+    "patient": {
+      "n_septic_patients": 47,
+      "patient_sensitivity": 1.0,
+      "median_lead_time_hours": 6.0,
+      "pct_non_septic_patients_with_any_alert": 0.1225296442687747,
+      "alert_hours_per_100_non_septic_patient_hours": 0.533745347285624
+    }
+  },
+  "lightgbm": {
+    "row": {
+      "auroc": 0.9978372410315489,
+      "auprc": 0.9868300480634457,
+      "threshold": 0.1262028392041237,
+      "sensitivity": 0.9594491201224178,
+      "specificity": 0.9932314832720943,
+      "precision": 0.9227373068432672
+    },
+    "patient": {
+      "n_septic_patients": 47,
+      "patient_sensitivity": 1.0,
+      "median_lead_time_hours": 6.0,
+      "pct_non_septic_patients_with_any_alert": 0.1067193675889328,
+      "alert_hours_per_100_non_septic_patient_hours": 0.5969520331483953
+    }
+  },
+  "lstm": {
+    "row": {
+      "auroc": 0.9984059572219484,
+      "auprc": 0.9909540417119621,
+      "threshold": 0.41245269775390625,
+      "sensitivity": 0.9671002295332823,
+      "specificity": 0.995358731386579,
+      "precision": 0.9461077844311377
+    },
+    "patient": {
+      "n_septic_patients": 47,
+      "patient_sensitivity": 1.0,
+      "median_lead_time_hours": 5.0,
+      "pct_non_septic_patients_with_any_alert": 0.09090909090909091,
+      "alert_hours_per_100_non_septic_patient_hours": 0.3792401151766276
+    }
+  }
+}
