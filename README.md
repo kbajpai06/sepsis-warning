@@ -41,7 +41,6 @@ Synthetic generator    ─┘  (stay × hour)       (clean, LOCF,    (3/6/12h me
 | **Quality** | 15 pytest tests (leakage, LOCF, slopes, split integrity, causal RNN, SHAP correctness, API behaviour) + GitHub Actions CI. |
 
 ## Results
-**Fill this table from your run on real data (MIMIC-IV or the 2019 Challenge set).**
 
 | Model | AUROC | AUPRC | Sens. @ thr | Spec. @ thr | Patient sens. | Median lead time (h) |
 |---|---|---|---|---|---|---|
